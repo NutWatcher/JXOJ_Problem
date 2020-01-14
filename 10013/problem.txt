@@ -1,0 +1,35 @@
+判断正负数
+
+林克知道整数由 正整数、负整数、零组成。
+你能帮他判断一下一个整数属于哪一类吗？
+
+in
+
+输入一个整数 N 。
+
+out
+
+如果 N 是正整数，输出 positive
+如果 N 是负整数，输出 negative
+如果 N 为零，输出 zero
+
+Sample
+
+in
+
+0
+
+out
+
+zero
+
+in
+
+3
+
+out
+
+positive
+
+
+Hint
