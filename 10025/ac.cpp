@@ -6,8 +6,8 @@ int main()
     cin >> a >> b >> c ;
     int n;
     cin >> n;
-    for (int i = 0 ; i < n/a ; i ++){
-        for (int j = 0 ; j < n/b ; j ++){
+    for (int i = 0 ; i <= n/a ; i ++){
+        for (int j = 0 ; j <= n/b ; j ++){
             int temp = n - i*a - j*b;
             if (temp < 0){
                 continue;
